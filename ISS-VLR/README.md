@@ -1,14 +1,14 @@
 ## ISS-MLR
 
-1. 运行前安装依赖库：
+1. Install dependent libraries before running:
 - `pip install -r requirement.txt`
 
-2. 运行协议：
-- 在config中设置通信、训练相关参数
-- 模型发起方运行 
+2. Run protocol：
+- Setting up communication and training related parameters in config
+- The active party run: 
 
     `. active.sh`
-- 特征提供方运行
+- The passive party run:
 
     `. passive1.sh`
     `. passive2.sh`
